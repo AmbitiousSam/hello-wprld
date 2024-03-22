@@ -46,9 +46,3 @@ jobs:
           service: sample-app
           cluster: helloworld
           wait-for-service-stability: true
-    #   - name:
-    #     run: |
-    #         aws ecs update-service \
-    #           --cluster helloworld \
-    #           --service sample-app \
-    #           --task-definition arn:aws:ecs:us-east-1:339712876455:task-definition/sample-app-tf:1
